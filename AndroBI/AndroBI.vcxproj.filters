@@ -27,9 +27,15 @@
     <ClInclude Include="src\AndroBI\EntryPoint.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\AndroBI\Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\AndroBI\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AndroBI\Log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,2 +1,6 @@
 ﻿  SandboxApp.cpp
+D:\My Work\Game\AndroBI\AndroBI\src\AndroBI\Log.h(24,54): warning C4251: 'AndroBI::Log::s_CoreLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'AndroBI::Log'
+D:\My Work\Game\AndroBI\AndroBI\vendor\spdlog\include\spdlog\details\registry.h(33): message : see declaration of 'std::shared_ptr<spdlog::logger>'
+D:\My Work\Game\AndroBI\AndroBI\src\AndroBI\Log.h(25,56): warning C4251: 'AndroBI::Log::s_ClientLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'AndroBI::Log'
+D:\My Work\Game\AndroBI\AndroBI\vendor\spdlog\include\spdlog\details\registry.h(33): message : see declaration of 'std::shared_ptr<spdlog::logger>'
   Sandbox.vcxproj -> D:\My Work\Game\AndroBI\\bin\Debug-x64\Sandbox\Sandbox.exe
