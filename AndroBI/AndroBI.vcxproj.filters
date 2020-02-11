@@ -4,6 +4,9 @@
     <Filter Include="AndroBI">
       <UniqueIdentifier>{24763297-9055-B132-996D-3C0905CC1794}</UniqueIdentifier>
     </Filter>
+    <Filter Include="AndroBI\Events">
+      <UniqueIdentifier>{8851C9A7-741F-BDAD-5DB3-2DD449209912}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\AndroBI\Application.h">
@@ -15,10 +18,23 @@
     <ClInclude Include="src\AndroBI\EntryPoint.h">
       <Filter>AndroBI</Filter>
     </ClInclude>
+    <ClInclude Include="src\AndroBI\Events\ApplicationEvent.h">
+      <Filter>AndroBI\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AndroBI\Events\Event.h">
+      <Filter>AndroBI\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AndroBI\Events\KeyEvent.h">
+      <Filter>AndroBI\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AndroBI\Events\MouseEvent.h">
+      <Filter>AndroBI\Events</Filter>
+    </ClInclude>
     <ClInclude Include="src\AndroBI\Log.h">
       <Filter>AndroBI</Filter>
     </ClInclude>
     <ClInclude Include="src\Androbi.h" />
+    <ClInclude Include="src\abipch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\AndroBI\Application.cpp">
@@ -27,5 +43,6 @@
     <ClCompile Include="src\AndroBI\Log.cpp">
       <Filter>AndroBI</Filter>
     </ClCompile>
+    <ClCompile Include="src\abipch.cpp" />
   </ItemGroup>
 </Project>
